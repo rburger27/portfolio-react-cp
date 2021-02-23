@@ -112,6 +112,7 @@ const educationInfo = {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
     },
+  ]
 };
 
 // Your top 3 proficient stacks/tech experience
