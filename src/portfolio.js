@@ -355,10 +355,10 @@ const contactInfo = {
 
 // Twitter Section
 
-// const twitterDetails = {
-//  userName: "davidrakosi_", //Replace "twitter" with your twitter username without @
-//  display: false // Set true to display this section, defaults to false
-// };
+const twitterDetails = {
+ userName: "rburger27", //Replace "twitter" with your twitter username without @
+ display: false // Set true to display this section, defaults to false
+ };
 
 export {
   illustration,
@@ -375,5 +375,5 @@ export {
   talkSection,
   podcastSection,
   contactInfo,
-  // twitterDetails
+  twitterDetails
 };
