@@ -49,8 +49,11 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rburger/react-portfolio-cp.git"
+    "url": "git+https://github.com/rburger/react-portfolio-cp.git"
   },
   "author": "Gary Burger",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rburger/react-portfolio-cp/issues"
+  }
 }
