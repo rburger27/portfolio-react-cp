@@ -103,25 +103,15 @@ const educationInfo = {
   display: false, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
+      schoolName: "Southern Careers Institute/ WOZ-U",
       logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
+      subHeader: "Certification in Fullstack Development",
+      duration: "December 2017 - November 2018",
       desc: "Participated in the research of XXX and published 3 papers.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc:
-        "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
-  ]
 };
 
 // Your top 3 proficient stacks/tech experience
@@ -130,16 +120,48 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend / Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Design", //Insert stack or technology you have experience in
+      progressPercentage: "75%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Frontend",
+      progressPercentage: "85%"
+    },
+    {
+      Stack: "HTML",
+      progressPercentage: "95%"
+    },
+    {
+      Stack: "CSS",
+      progressPercentage: "95%"
+    },
+    {
+      Stack: "React.js",
+      progressPercentage: "65%"
     },
     {
       Stack: "Backend",
-      progressPercentage: "60%"
+      progressPercentage: "72"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "90%"
+      Stack: "Node.js",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Express.js",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "MySQL",
+      progressPercentage: "75%"
+    },
+     {
+      Stack: "MongoDB",
+      progressPercentage: "75%"
+    },
+    {
+      Stack: "Firebase",
+      progressPercentage: "50%"
     }
   ],
   displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
